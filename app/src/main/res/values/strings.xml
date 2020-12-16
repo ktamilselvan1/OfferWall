@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Offer Wall</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="offer_wall_fragment_label">Offer Wall Fragment</string>
+
+</resources>
