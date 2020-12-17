@@ -12,11 +12,9 @@ public interface ApiService {
 
     @GET("offers.json")
     Observable<OfferWallResponse> getOfferWall(@Query("appid") String appId,
-                                               @Query("device_id") String device_id,
                                                @Query("locale") String locale,
                                                @Query("ip") String ip,
-                                               @Query("os_version") String osVersion,
-                                               @Query("phone_version") String phone_version,
+                                               @Query("offer_types") String offerTypes,
                                                @Query("timestamp") String timestamp,
                                                @Query("uid") String uId,
                                                @Query("hashkey") String hashKey);

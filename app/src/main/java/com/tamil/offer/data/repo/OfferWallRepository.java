@@ -45,9 +45,8 @@ public class OfferWallRepository {
         }
 
         return this.apiService.getOfferWall(
-                request.get("appid"), request.get("device_id"), request.get("locale"),
-                request.get("ip"), request.get("os_version"), request.get("phone_version"),
-                request.get("timestamp"), request.get("uid"), hashValue);
+                request.get("appid"), request.get("locale"), request.get("ip"),
+                request.get("offer_types"), request.get("timestamp"), request.get("uid"), hashValue);
     }
 
     private static String convertToHex(byte[] data) {

@@ -1,13 +1,50 @@
 package com.tamil.offer.di.module;
 
-import com.tamil.offer.ui.home.MainActivity;
+import android.app.Application;
+import android.content.Context;
+import android.content.SharedPreferences;
+
+import com.tamil.offer.data.network.ApiService;
+import com.tamil.offer.util.FormSettings;
 
 import dagger.Module;
-import dagger.android.ContributesAndroidInjector;
+import dagger.Provides;
+import okhttp3.OkHttpClient;
+import okhttp3.logging.HttpLoggingInterceptor;
+import retrofit2.Retrofit;
+import retrofit2.adapter.rxjava2.RxJava2CallAdapterFactory;
+import retrofit2.converter.gson.GsonConverterFactory;
 
 @Module
-public abstract class AppModule {
+public class AppModule {
 
-    @ContributesAndroidInjector(modules = {FragmentModule.class})
-    abstract MainActivity bindMainActivity();
+    @Provides
+    Retrofit provideRetrofit() {
+        OkHttpClient.Builder okHttpClient = new OkHttpClient.Builder();
+        HttpLoggingInterceptor loggingInterceptor = new HttpLoggingInterceptor();
+        loggingInterceptor.setLevel(HttpLoggingInterceptor.Level.BODY);
+        okHttpClient.addInterceptor(loggingInterceptor);
+
+        return new Retrofit.Builder()
+                .baseUrl("http://api.fyber.com/feed/v1/")
+                .addConverterFactory(GsonConverterFactory.create())
+                .addCallAdapterFactory(RxJava2CallAdapterFactory.create())
+                .client(okHttpClient.build())
+                .build();
+    }
+
+    @Provides
+    ApiService provideApiService(Retrofit retrofit) {
+        return retrofit.create(ApiService.class);
+    }
+
+    @Provides
+    SharedPreferences provideSharedPreferences(Application application) {
+        return application.getSharedPreferences("OfferWall", Context.MODE_PRIVATE);
+    }
+
+    @Provides
+    FormSettings provideFormSettings(SharedPreferences sharedPreferences) {
+        return new FormSettings(sharedPreferences);
+    }
 }
