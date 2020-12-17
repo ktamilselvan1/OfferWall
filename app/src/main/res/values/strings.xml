@@ -4,4 +4,8 @@
     <!-- Strings used for fragments for navigation -->
     <string name="offer_wall_fragment_label">Offer Wall Fragment</string>
 
+
+    <string name="app_id">Application ID</string>
+    <string name="user_id">User ID</string>
+    <string name="token">Token</string>
 </resources>

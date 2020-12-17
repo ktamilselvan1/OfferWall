@@ -10,6 +10,10 @@ import com.tamil.offer.data.repo.OfferWallRepository;
 import com.tamil.offer.data.repo.response.OfferWallResponse;
 
 import java.security.cert.CertificateRevokedException;
+import java.sql.Timestamp;
+import java.util.Calendar;
+import java.util.HashMap;
+import java.util.Map;
 
 import javax.inject.Inject;
 
@@ -37,7 +41,16 @@ public class OfferWallViewModel extends BaseViewModel {
 
     public void getOfferWallData() {
         CompositeDisposable compositeDisposable = new CompositeDisposable();
-        compositeDisposable.add(this.offerWallRepository.getOfferWallData()
+        Map<String, String> requestData = new HashMap<>();
+        requestData.put("appid", "2070");
+        requestData.put("device_id", "2070");
+        requestData.put("locale", "DE");
+        requestData.put("ip", "109.235.143.113");
+        requestData.put("os_version", "2070");
+        requestData.put("phone_version", "2070");
+        requestData.put("uid", "superman");
+        requestData.put("timestamp", String.valueOf(System.currentTimeMillis() / 1000L));
+        compositeDisposable.add(this.offerWallRepository.getOfferWallData(requestData, "1c915e3b5d42d05136185030892fbb846c278927")
                 .subscribeOn(Schedulers.io())
                 .observeOn(AndroidSchedulers.mainThread())
                 .subscribe(_offerWallResponse::postValue, t -> Log.d("Error", t.getMessage())));

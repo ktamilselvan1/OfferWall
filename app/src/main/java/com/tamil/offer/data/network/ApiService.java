@@ -10,14 +10,15 @@ import retrofit2.http.Query;
 
 public interface ApiService {
 
-    @GET("")
+    @GET("offers.json")
     Observable<OfferWallResponse> getOfferWall(@Query("appid") String appId,
-                                             @Query("uid") String uId,
-                                             @Query("ip") String ip,
-                                             @Query("locale") String locale,
-                                             @Query("device_id") String device_id,
-                                             @Query("timestamp") String timestamp,
-                                             @Query("phone_version") String phone_version,
-                                             @Query("hashkey") String hashKey);
+                                               @Query("device_id") String device_id,
+                                               @Query("locale") String locale,
+                                               @Query("ip") String ip,
+                                               @Query("os_version") String osVersion,
+                                               @Query("phone_version") String phone_version,
+                                               @Query("timestamp") String timestamp,
+                                               @Query("uid") String uId,
+                                               @Query("hashkey") String hashKey);
 
 }
