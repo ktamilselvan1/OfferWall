@@ -2,27 +2,35 @@ package com.tamil.offer.ui.home;
 
 import android.os.Bundle;
 
-import com.tamil.offer.OfferWallApplication;
 import com.tamil.offer.R;
+import com.tamil.offer.base.BaseActivity;
+import com.tamil.offer.ui.offerwall.OfferWallFragmentDirections;
 
-import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
+import androidx.lifecycle.ViewModel;
+import androidx.navigation.NavController;
+import androidx.navigation.NavDirections;
+import androidx.navigation.fragment.NavHostFragment;
+import androidx.navigation.ui.NavigationUI;
 
 import android.view.Menu;
 import android.view.MenuItem;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends BaseActivity {
+
+    @Override
+    public ViewModel getViewModel() {
+        return null;
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        ((OfferWallApplication) getApplicationContext()).appComponent.inject(this);
-
         super.onCreate(savedInstanceState);
-
         setContentView(R.layout.activity_main);
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        NavigationUI.setupWithNavController(toolbar, getNavController());
     }
 
     @Override
@@ -41,9 +49,17 @@ public class MainActivity extends AppCompatActivity {
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
+            NavDirections action = OfferWallFragmentDirections.navigateToSettings();
+            getNavController().navigate(action);
             return true;
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    public NavController getNavController() {
+        NavHostFragment navHostFragment =
+                (NavHostFragment) getSupportFragmentManager().findFragmentById(R.id.nav_host_fragment);
+        return navHostFragment.getNavController();
     }
 }

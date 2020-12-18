@@ -1,6 +1,12 @@
 package com.tamil.offer.di.module;
 
+import android.app.Application;
+import android.content.Context;
+import android.content.SharedPreferences;
+
+import com.tamil.offer.BuildConfig;
 import com.tamil.offer.data.network.ApiService;
+import com.tamil.offer.util.FormSettings;
 
 import dagger.Module;
 import dagger.Provides;
@@ -10,7 +16,7 @@ import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
 @Module
-public class NetworkModule {
+public class AppModule {
 
     @Provides
     Retrofit provideRetrofit() {
@@ -20,7 +26,7 @@ public class NetworkModule {
         okHttpClient.addInterceptor(loggingInterceptor);
 
         return new Retrofit.Builder()
-                .baseUrl("")
+                .baseUrl(BuildConfig.API_URL)
                 .addConverterFactory(GsonConverterFactory.create())
                 .client(okHttpClient.build())
                 .build();
@@ -29,5 +35,15 @@ public class NetworkModule {
     @Provides
     ApiService provideApiService(Retrofit retrofit) {
         return retrofit.create(ApiService.class);
+    }
+
+    @Provides
+    SharedPreferences provideSharedPreferences(Application application) {
+        return application.getSharedPreferences("OfferWall", Context.MODE_PRIVATE);
+    }
+
+    @Provides
+    FormSettings provideFormSettings(SharedPreferences sharedPreferences) {
+        return new FormSettings(sharedPreferences);
     }
 }

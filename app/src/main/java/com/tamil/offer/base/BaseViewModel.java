@@ -10,4 +10,11 @@ public class BaseViewModel extends ViewModel {
 
     public LiveData<Boolean> showLoading = _showLoading;
 
+    protected void showLoading() {
+        _showLoading.postValue(true);
+    }
+
+    protected void hideLoading() {
+        _showLoading.postValue(false);
+    }
 }

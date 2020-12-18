@@ -1,11 +1,19 @@
 package com.tamil.offer;
 
-import android.app.Application;
-
-import com.tamil.offer.di.AppComponent;
 import com.tamil.offer.di.DaggerAppComponent;
 
-public class OfferWallApplication extends Application {
-    public AppComponent appComponent = DaggerAppComponent.create();
+import dagger.android.AndroidInjector;
+import dagger.android.DaggerApplication;
 
+public class OfferWallApplication extends DaggerApplication {
+
+    @Override
+    public void onCreate() {
+        super.onCreate();
+    }
+
+    @Override
+    protected AndroidInjector<? extends DaggerApplication> applicationInjector() {
+        return DaggerAppComponent.builder().application(this).build();
+    }
 }

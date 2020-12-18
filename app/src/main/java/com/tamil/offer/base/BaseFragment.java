@@ -1,7 +1,23 @@
 package com.tamil.offer.base;
 
-import androidx.fragment.app.Fragment;
+import android.content.Context;
 
-public class BaseFragment extends Fragment {
+import androidx.lifecycle.ViewModel;
+
+import dagger.android.support.DaggerFragment;
+
+public abstract class BaseFragment<T extends ViewModel> extends DaggerFragment {
+    private T viewModel;
+
+    /**
+     * @return view model instance
+     */
+    public abstract T getViewModel();
+
+    @Override
+    public void onAttach(Context context) {
+        super.onAttach(context);
+        viewModel = getViewModel();
+    }
 
 }
