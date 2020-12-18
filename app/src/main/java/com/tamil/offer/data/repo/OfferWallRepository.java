@@ -12,7 +12,7 @@ import java.util.TreeSet;
 
 import javax.inject.Inject;
 
-import io.reactivex.Observable;
+import retrofit2.Call;
 
 public class OfferWallRepository {
 
@@ -23,7 +23,7 @@ public class OfferWallRepository {
         this.apiService = apiService;
     }
 
-    public Observable<OfferWallResponse> getOfferWallData(Map<String, String> request, String apiKey) {
+    public Call<OfferWallResponse> getOfferWallData(Map<String, String> request, String apiKey) {
         SortedSet<String> keys = new TreeSet<>(request.keySet());
         StringBuilder sortedKeyValuePair = new StringBuilder();
         for (String key : keys) {

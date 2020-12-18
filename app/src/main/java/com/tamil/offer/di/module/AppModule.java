@@ -4,6 +4,7 @@ import android.app.Application;
 import android.content.Context;
 import android.content.SharedPreferences;
 
+import com.tamil.offer.BuildConfig;
 import com.tamil.offer.data.network.ApiService;
 import com.tamil.offer.util.FormSettings;
 
@@ -12,7 +13,6 @@ import dagger.Provides;
 import okhttp3.OkHttpClient;
 import okhttp3.logging.HttpLoggingInterceptor;
 import retrofit2.Retrofit;
-import retrofit2.adapter.rxjava2.RxJava2CallAdapterFactory;
 import retrofit2.converter.gson.GsonConverterFactory;
 
 @Module
@@ -26,9 +26,8 @@ public class AppModule {
         okHttpClient.addInterceptor(loggingInterceptor);
 
         return new Retrofit.Builder()
-                .baseUrl("http://api.fyber.com/feed/v1/")
+                .baseUrl(BuildConfig.API_URL)
                 .addConverterFactory(GsonConverterFactory.create())
-                .addCallAdapterFactory(RxJava2CallAdapterFactory.create())
                 .client(okHttpClient.build())
                 .build();
     }

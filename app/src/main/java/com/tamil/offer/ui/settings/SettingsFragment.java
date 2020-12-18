@@ -34,18 +34,18 @@ public class SettingsFragment extends BaseFragment {
     }
 
     @Override
-    public void onActivityCreated(@Nullable Bundle savedInstanceState) {
-        super.onActivityCreated(savedInstanceState);
-        fragmentSettingsBinding.submit.setOnClickListener(view -> {
+    public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
+        super.onViewCreated(view, savedInstanceState);
+        fragmentSettingsBinding.submit.setOnClickListener(v -> {
             if (Objects.requireNonNull(fragmentSettingsBinding.appIdEditText.getText()).toString().trim().length() == 0) {
-                fragmentSettingsBinding.appIdInputLayout.setError("Enter the Application ID");
+                fragmentSettingsBinding.appIdInputLayout.setError(getString(R.string.error_app_id));
                 return;
             } else {
                 fragmentSettingsBinding.appIdInputLayout.setError(null);
                 formSettings.setApplicationID(fragmentSettingsBinding.appIdEditText.getText().toString().trim());
             }
             if (Objects.requireNonNull(fragmentSettingsBinding.userIdEditText.getText()).toString().trim().length() == 0) {
-                fragmentSettingsBinding.userIdInputLayout.setError("Enter the User ID");
+                fragmentSettingsBinding.userIdInputLayout.setError(getString(R.string.error_user_id));
                 return;
             } else {
                 fragmentSettingsBinding.userIdInputLayout.setError(null);
@@ -53,13 +53,13 @@ public class SettingsFragment extends BaseFragment {
 
             }
             if (Objects.requireNonNull(fragmentSettingsBinding.tokenEditText.getText()).toString().trim().length() == 0) {
-                fragmentSettingsBinding.tokenInputLayout.setError("Enter the Token");
+                fragmentSettingsBinding.tokenInputLayout.setError(getString(R.string.error_token));
                 return;
             } else {
                 fragmentSettingsBinding.tokenInputLayout.setError(null);
                 formSettings.setToken(fragmentSettingsBinding.tokenEditText.getText().toString().trim());
             }
-            ((MainActivity)getActivity()).getNavController().navigateUp();
+            ((MainActivity) getActivity()).getNavController().navigateUp();
         });
 
         fragmentSettingsBinding.appIdEditText.setText(formSettings.getApplicationID());

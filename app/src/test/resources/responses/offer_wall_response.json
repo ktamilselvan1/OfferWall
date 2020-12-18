@@ -1,0 +1,1044 @@
+{
+  "code": "OK",
+  "message": "Ok",
+  "count": 30,
+  "pages": 3,
+  "information": {
+    "app_name": "VC Backend Test",
+    "appid": 2070,
+    "placement_id": "",
+    "virtual_currency": "VCS Coins",
+    "virtual_currency_sale_enabled": false,
+    "country": "DE",
+    "language": "DE",
+    "support_url": "http://offer.fyber.com/mobile/support?appid=2070&client=api&uid=superman"
+  },
+  "offers": [
+    {
+      "title": "Prime Video: 30 Tage kostenlos!",
+      "comment": null,
+      "offer_id": 1355623,
+      "dynamic_payout_enabled": false,
+      "teaser": "Registrieren Sie sich, bestätigen Sie und starten Sie Ihre Testversion!",
+      "required_actions": "Registrieren Sie sich, bestätigen Sie und starten Sie Ihre Testversion!",
+      "detailed_actions_text": "Registrieren Sie sich bei Amazon Prime\r\nGeben Sie alle relevanten Daten ein\r\nGeben Sie Ihre Kreditkarte oder Zahlungsdaten ein\r\nAktivieren Sie Ihre kostenlose Testversion.\r\n*This offer is for NEW users only\r\nReceive your 30 day FREE trial, which Renews to a membership at EUR 7,99 /month if not cancelled prior to the end date.\r\nInvalid/fake emails/credit cards will not be rewarded.\r\nCancellation: for cancellation log in to the service and cancel your membership via the settings / user panel.\r\n\r\nHinweis: Es kann bis zu 72 Stunden dauern, bis Sie Ihre Belohnung erhalten.\r\n",
+      "link": "http://offer.fyber.com/mobile?impression=true&appid=2070&uid=superman&client=api&device_model=&platform=android&appname=VC+Backend+Test&traffic_source=offer_api&country_code=DE&pubid=249&ip=109.235.143.0&request_timestamp=1608238677257&request_id=6b56f823-54e3-494f-a68f-78a365c59a71&timestamp=1608238675&ad_id=1355623&ad_format=offer&group=Fyber&gdpr_privacy_consent=0&sig=94fbbb109d2b7a842294c2200011765e35563e52",
+      "offer_types": [
+        {
+          "offer_type_id": 102,
+          "readable": "Trial"
+        },
+        {
+          "offer_type_id": 112,
+          "readable": "Free"
+        }
+      ],
+      "payout": 348,
+      "time_to_payout": {
+        "amount": 182700,
+        "readable": "2.1145833333333335 days"
+      },
+      "thumbnail": {
+        "lowres": "http://icons.fyber-static.com/offer_icons/30077/icon.png",
+        "hires": "http://icons.fyber-static.com/offer_icons/30077/icon.png"
+      },
+      "store_id": "",
+      "mobile_app_primary_category": null
+    },
+    {
+      "title": "Audible FREETRIAL",
+      "comment": null,
+      "offer_id": 1409554,
+      "dynamic_payout_enabled": false,
+      "teaser": "Registrieren Sie sich bei Audible, Einloggen, Hörbuch auswählen und den Gra",
+      "required_actions": "Registrieren Sie sich bei Audible, Einloggen, Hörbuch auswählen und den Gra",
+      "detailed_actions_text": "1) Registrieren Sie sich bei Audible \r\n2) Einloggen\r\n3) Hörbuch auswählen und den Gra\r\n\r\n*Nur neue Benutzer*",
+      "link": "http://offer.fyber.com/mobile?impression=true&appid=2070&uid=superman&client=api&device_model=&platform=android&appname=VC+Backend+Test&traffic_source=offer_api&country_code=DE&pubid=249&ip=109.235.143.0&request_timestamp=1608238677257&request_id=6b56f823-54e3-494f-a68f-78a365c59a71&timestamp=1608238675&ad_id=1409554&ad_format=offer&group=Fyber&gdpr_privacy_consent=0&sig=1fbe3b1708ee85506b270d7581227369cea39a8e",
+      "offer_types": [
+        {
+          "offer_type_id": 102,
+          "readable": "Trial"
+        },
+        {
+          "offer_type_id": 112,
+          "readable": "Free"
+        }
+      ],
+      "payout": 237,
+      "time_to_payout": {
+        "amount": 72600,
+        "readable": "20 hours"
+      },
+      "thumbnail": {
+        "lowres": "http://icons.fyber-static.com/offer_icons/53152/icon.png",
+        "hires": "http://icons.fyber-static.com/offer_icons/53152/icon.png"
+      },
+      "store_id": "",
+      "mobile_app_primary_category": null
+    },
+    {
+      "title": "Audible Free Trial ",
+      "comment": null,
+      "offer_id": 1408862,
+      "dynamic_payout_enabled": false,
+      "teaser": "Registrieren Sie sich bei Audible",
+      "required_actions": "Registrieren Sie sich bei Audible",
+      "detailed_actions_text": "1) Registrieren Sie sich bei Audible\r\n2) Einloggen.\r\n3) Hörbuch auswählen und den Gratismonat genießen.\r\n \r\n*Innerhalb von 24 Stunden Credits erhalten. Dieses Angebot gilt nur für Neukunden.*",
+      "link": "http://offer.fyber.com/mobile?impression=true&appid=2070&uid=superman&client=api&device_model=&platform=android&appname=VC+Backend+Test&traffic_source=offer_api&country_code=DE&pubid=249&ip=109.235.143.0&request_timestamp=1608238677257&request_id=6b56f823-54e3-494f-a68f-78a365c59a71&timestamp=1608238675&ad_id=1408862&ad_format=offer&group=Fyber&gdpr_privacy_consent=0&sig=cdaa46f1dfcdfd8bdf4ca472193a74e7389ead92",
+      "offer_types": [
+        {
+          "offer_type_id": 102,
+          "readable": "Trial"
+        },
+        {
+          "offer_type_id": 112,
+          "readable": "Free"
+        }
+      ],
+      "payout": 237,
+      "time_to_payout": {
+        "amount": 69900,
+        "readable": "19 hours"
+      },
+      "thumbnail": {
+        "lowres": "http://icons.fyber-static.com/offer_icons/52777/icon.png",
+        "hires": "http://icons.fyber-static.com/offer_icons/52777/icon.png"
+      },
+      "store_id": "",
+      "mobile_app_primary_category": null
+    },
+    {
+      "title": "VOUCHER GUTSCHEIN COUPON CUPON VALE MONT BLANC ",
+      "comment": null,
+      "offer_id": 1400461,
+      "dynamic_payout_enabled": false,
+      "teaser": "VOUCHER GUTSCHEIN COUPON CUPON VALE MONT BLANC ",
+      "required_actions": "VOUCHER GUTSCHEIN COUPON CUPON VALE MONT BLANC ",
+      "detailed_actions_text": "1) Register using a valid email address \r\n\r\nPlease note: Invalid/fake emails will not be rewarded\r\n*For new users only*",
+      "link": "http://offer.fyber.com/mobile?impression=true&appid=2070&uid=superman&client=api&device_model=&platform=android&appname=VC+Backend+Test&traffic_source=offer_api&country_code=DE&pubid=249&ip=109.235.143.0&request_timestamp=1608238677257&request_id=6b56f823-54e3-494f-a68f-78a365c59a71&timestamp=1608238675&ad_id=1400461&ad_format=offer&group=Fyber&gdpr_privacy_consent=0&sig=f25aff3beb01647549c3c2211bc685cc51e7e61a",
+      "offer_types": [
+        {
+          "offer_type_id": 104,
+          "readable": "Registration"
+        },
+        {
+          "offer_type_id": 108,
+          "readable": "Registration"
+        },
+        {
+          "offer_type_id": 112,
+          "readable": "Free"
+        }
+      ],
+      "payout": 236,
+      "time_to_payout": {
+        "amount": 1800,
+        "readable": "30 minutes"
+      },
+      "thumbnail": {
+        "lowres": "http://icons.fyber-static.com/offer_icons/48760/icon.png",
+        "hires": "http://icons.fyber-static.com/offer_icons/48760/icon.png"
+      },
+      "store_id": "",
+      "mobile_app_primary_category": null
+    },
+    {
+      "title": "EARHALTE KOSTENLOSE PARFÜMPROBEN DOUGLAS",
+      "comment": null,
+      "offer_id": 1400815,
+      "dynamic_payout_enabled": false,
+      "teaser": "EARHALTE KOSTENLOSE PARFÜMPROBEN DOUGLAS",
+      "required_actions": "EARHALTE KOSTENLOSE PARFÜMPROBEN DOUGLAS",
+      "detailed_actions_text": "1) Register using a valid email address \r\n\r\nPlease note: Invalid/fake emails will not be rewarded\r\n*For new users only*",
+      "link": "http://offer.fyber.com/mobile?impression=true&appid=2070&uid=superman&client=api&device_model=&platform=android&appname=VC+Backend+Test&traffic_source=offer_api&country_code=DE&pubid=249&ip=109.235.143.0&request_timestamp=1608238677257&request_id=6b56f823-54e3-494f-a68f-78a365c59a71&timestamp=1608238675&ad_id=1400815&ad_format=offer&group=Fyber&gdpr_privacy_consent=0&sig=0da268d501dec208049dabc10eb2f9bd3427339a",
+      "offer_types": [
+        {
+          "offer_type_id": 104,
+          "readable": "Registration"
+        },
+        {
+          "offer_type_id": 108,
+          "readable": "Registration"
+        },
+        {
+          "offer_type_id": 112,
+          "readable": "Free"
+        }
+      ],
+      "payout": 236,
+      "time_to_payout": {
+        "amount": 600,
+        "readable": "10 minutes"
+      },
+      "thumbnail": {
+        "lowres": "http://icons.fyber-static.com/offer_icons/48897/icon.png",
+        "hires": "http://icons.fyber-static.com/offer_icons/48897/icon.png"
+      },
+      "store_id": "",
+      "mobile_app_primary_category": null
+    },
+    {
+      "title": "GEWINNE GUTSCHEINE IM WERT VON 500€",
+      "comment": null,
+      "offer_id": 1400460,
+      "dynamic_payout_enabled": false,
+      "teaser": "GEWINNE GUTSCHEINE IM WERT VON 500€",
+      "required_actions": "GEWINNE GUTSCHEINE IM WERT VON 500€",
+      "detailed_actions_text": "1) Register using a valid email address \r\n\r\nPlease note: Invalid/fake emails will not be rewarded\r\n*For new users only*",
+      "link": "http://offer.fyber.com/mobile?impression=true&appid=2070&uid=superman&client=api&device_model=&platform=android&appname=VC+Backend+Test&traffic_source=offer_api&country_code=DE&pubid=249&ip=109.235.143.0&request_timestamp=1608238677257&request_id=6b56f823-54e3-494f-a68f-78a365c59a71&timestamp=1608238675&ad_id=1400460&ad_format=offer&group=Fyber&gdpr_privacy_consent=0&sig=ce2f5e3f25a8bb9d1f4424ac9aaa54588d8fb439",
+      "offer_types": [
+        {
+          "offer_type_id": 104,
+          "readable": "Registration"
+        },
+        {
+          "offer_type_id": 108,
+          "readable": "Registration"
+        },
+        {
+          "offer_type_id": 112,
+          "readable": "Free"
+        }
+      ],
+      "payout": 236,
+      "time_to_payout": {
+        "amount": 1800,
+        "readable": "30 minutes"
+      },
+      "thumbnail": {
+        "lowres": "http://icons.fyber-static.com/offer_icons/48759/icon.png",
+        "hires": "http://icons.fyber-static.com/offer_icons/48759/icon.png"
+      },
+      "store_id": "",
+      "mobile_app_primary_category": null
+    },
+    {
+      "title": "2000 BRIEFMARKEN ZU GEWINNEN MARKENBOX",
+      "comment": null,
+      "offer_id": 1400463,
+      "dynamic_payout_enabled": false,
+      "teaser": "2000 BRIEFMARKEN ZU GEWINNEN MARKENBOX",
+      "required_actions": "2000 BRIEFMARKEN ZU GEWINNEN MARKENBOX",
+      "detailed_actions_text": "1) Register using a valid email address \r\n\r\nPlease note: Invalid/fake emails will not be rewarded\r\n*For new users only*",
+      "link": "http://offer.fyber.com/mobile?impression=true&appid=2070&uid=superman&client=api&device_model=&platform=android&appname=VC+Backend+Test&traffic_source=offer_api&country_code=DE&pubid=249&ip=109.235.143.0&request_timestamp=1608238677257&request_id=6b56f823-54e3-494f-a68f-78a365c59a71&timestamp=1608238675&ad_id=1400463&ad_format=offer&group=Fyber&gdpr_privacy_consent=0&sig=a883e3c3a4e92a0b47d82e6aad2807d5d07e8930",
+      "offer_types": [
+        {
+          "offer_type_id": 104,
+          "readable": "Registration"
+        },
+        {
+          "offer_type_id": 108,
+          "readable": "Registration"
+        },
+        {
+          "offer_type_id": 112,
+          "readable": "Free"
+        }
+      ],
+      "payout": 236,
+      "time_to_payout": {
+        "amount": 1800,
+        "readable": "30 minutes"
+      },
+      "thumbnail": {
+        "lowres": "http://icons.fyber-static.com/offer_icons/48762/icon.png",
+        "hires": "http://icons.fyber-static.com/offer_icons/48762/icon.png"
+      },
+      "store_id": "",
+      "mobile_app_primary_category": null
+    },
+    {
+      "title": "WÄHLEN SIE 3 PRODUKTE IM WERT VON 500€ AUS",
+      "comment": null,
+      "offer_id": 1400464,
+      "dynamic_payout_enabled": false,
+      "teaser": "WÄHLEN SIE 3 PRODUKTE IM WERT VON 500€ AUS",
+      "required_actions": "WÄHLEN SIE 3 PRODUKTE IM WERT VON 500€ AUS",
+      "detailed_actions_text": "1) Register using a valid email address \r\n\r\nPlease note: Invalid/fake emails will not be rewarded\r\n*For new users only*",
+      "link": "http://offer.fyber.com/mobile?impression=true&appid=2070&uid=superman&client=api&device_model=&platform=android&appname=VC+Backend+Test&traffic_source=offer_api&country_code=DE&pubid=249&ip=109.235.143.0&request_timestamp=1608238677257&request_id=6b56f823-54e3-494f-a68f-78a365c59a71&timestamp=1608238675&ad_id=1400464&ad_format=offer&group=Fyber&gdpr_privacy_consent=0&sig=0641071b9892c1a9d594d0c0c5d39ea811a1ee44",
+      "offer_types": [
+        {
+          "offer_type_id": 104,
+          "readable": "Registration"
+        },
+        {
+          "offer_type_id": 108,
+          "readable": "Registration"
+        },
+        {
+          "offer_type_id": 112,
+          "readable": "Free"
+        }
+      ],
+      "payout": 236,
+      "time_to_payout": {
+        "amount": 1800,
+        "readable": "30 minutes"
+      },
+      "thumbnail": {
+        "lowres": "http://icons.fyber-static.com/offer_icons/48763/icon.png",
+        "hires": "http://icons.fyber-static.com/offer_icons/48763/icon.png"
+      },
+      "store_id": "",
+      "mobile_app_primary_category": null
+    },
+    {
+      "title": "GEWINNE DIESE 250€ GUTSCHEINKARTE Bon Prix its me!",
+      "comment": null,
+      "offer_id": 1400459,
+      "dynamic_payout_enabled": false,
+      "teaser": "GEWINNE DIESE 250€ GUTSCHEINKARTE Bon Prix its me!",
+      "required_actions": "GEWINNE DIESE 250€ GUTSCHEINKARTE Bon Prix its me!",
+      "detailed_actions_text": "1) Register using a valid email address \r\n\r\nPlease note: Invalid/fake emails will not be rewarded\r\n*For new users only*",
+      "link": "http://offer.fyber.com/mobile?impression=true&appid=2070&uid=superman&client=api&device_model=&platform=android&appname=VC+Backend+Test&traffic_source=offer_api&country_code=DE&pubid=249&ip=109.235.143.0&request_timestamp=1608238677257&request_id=6b56f823-54e3-494f-a68f-78a365c59a71&timestamp=1608238675&ad_id=1400459&ad_format=offer&group=Fyber&gdpr_privacy_consent=0&sig=a3c2c334e7e136d763ef024d3e9aea986fd4f906",
+      "offer_types": [
+        {
+          "offer_type_id": 104,
+          "readable": "Registration"
+        },
+        {
+          "offer_type_id": 108,
+          "readable": "Registration"
+        },
+        {
+          "offer_type_id": 112,
+          "readable": "Free"
+        }
+      ],
+      "payout": 236,
+      "time_to_payout": {
+        "amount": 1800,
+        "readable": "30 minutes"
+      },
+      "thumbnail": {
+        "lowres": "http://icons.fyber-static.com/offer_icons/48758/icon.png",
+        "hires": "http://icons.fyber-static.com/offer_icons/48758/icon.png"
+      },
+      "store_id": "",
+      "mobile_app_primary_category": null
+    },
+    {
+      "title": "GEWINNE DIESE 250€ GUTSCHEINKARTE",
+      "comment": null,
+      "offer_id": 1403210,
+      "dynamic_payout_enabled": false,
+      "teaser": "GEWINNE DIESE 250€ GUTSCHEINKARTE",
+      "required_actions": "GEWINNE DIESE 250€ GUTSCHEINKARTE",
+      "detailed_actions_text": "1) Register using a valid email address \r\n\r\nPlease note: Invalid/fake emails will not be rewarded\r\n*For new users only*",
+      "link": "http://offer.fyber.com/mobile?impression=true&appid=2070&uid=superman&client=api&device_model=&platform=android&appname=VC+Backend+Test&traffic_source=offer_api&country_code=DE&pubid=249&ip=109.235.143.0&request_timestamp=1608238677257&request_id=6b56f823-54e3-494f-a68f-78a365c59a71&timestamp=1608238675&ad_id=1403210&ad_format=offer&group=Fyber&gdpr_privacy_consent=0&sig=dffd380255146968aef6a04ec7b911959bd3f09f",
+      "offer_types": [
+        {
+          "offer_type_id": 104,
+          "readable": "Registration"
+        },
+        {
+          "offer_type_id": 108,
+          "readable": "Registration"
+        },
+        {
+          "offer_type_id": 112,
+          "readable": "Free"
+        }
+      ],
+      "payout": 232,
+      "time_to_payout": {
+        "amount": 1800,
+        "readable": "30 minutes"
+      },
+      "thumbnail": {
+        "lowres": "http://icons.fyber-static.com/offer_icons/49984/icon.png",
+        "hires": "http://icons.fyber-static.com/offer_icons/49984/icon.png"
+      },
+      "store_id": "",
+      "mobile_app_primary_category": null
+    },
+    {
+      "title": "KOSTENLOSE PROBEN TESTEN Das beste verfugbare Deo",
+      "comment": null,
+      "offer_id": 1404597,
+      "dynamic_payout_enabled": false,
+      "teaser": "KOSTENLOSE PROBEN TESTEN Das beste verfugbare Deo",
+      "required_actions": "KOSTENLOSE PROBEN TESTEN Das beste verfugbare Deo",
+      "detailed_actions_text": "1) Register using a valid email address \r\n\r\nPlease note: Invalid/fake emails will not be rewarded\r\n*For new users only*",
+      "link": "http://offer.fyber.com/mobile?impression=true&appid=2070&uid=superman&client=api&device_model=&platform=android&appname=VC+Backend+Test&traffic_source=offer_api&country_code=DE&pubid=249&ip=109.235.143.0&request_timestamp=1608238677257&request_id=6b56f823-54e3-494f-a68f-78a365c59a71&timestamp=1608238675&ad_id=1404597&ad_format=offer&group=Fyber&gdpr_privacy_consent=0&sig=cd3842b32e9e981e689bb8c3173b3d63aa6adb67",
+      "offer_types": [
+        {
+          "offer_type_id": 104,
+          "readable": "Registration"
+        },
+        {
+          "offer_type_id": 108,
+          "readable": "Registration"
+        },
+        {
+          "offer_type_id": 112,
+          "readable": "Free"
+        }
+      ],
+      "payout": 232,
+      "time_to_payout": {
+        "amount": 1800,
+        "readable": "30 minutes"
+      },
+      "thumbnail": {
+        "lowres": "http://icons.fyber-static.com/offer_icons/50700/icon.png",
+        "hires": "http://icons.fyber-static.com/offer_icons/50700/icon.png"
+      },
+      "store_id": "",
+      "mobile_app_primary_category": null
+    },
+    {
+      "title": "QuickThoughts DE",
+      "comment": null,
+      "offer_id": 1413029,
+      "dynamic_payout_enabled": false,
+      "teaser": "Register and complete your 1st survey for points!",
+      "required_actions": "Register and complete your 1st survey for points!",
+      "detailed_actions_text": "Register and complete your 1st survey for points! Turn your points in for great prizes and gift cards!",
+      "link": "http://offer.fyber.com/mobile?impression=true&appid=2070&uid=superman&client=api&device_model=&platform=android&appname=VC+Backend+Test&traffic_source=offer_api&country_code=DE&pubid=249&ip=109.235.143.0&request_timestamp=1608238677257&request_id=6b56f823-54e3-494f-a68f-78a365c59a71&timestamp=1608238675&ad_id=1413029&ad_format=offer&group=Fyber&gdpr_privacy_consent=0&sig=15ce35ce0f044a2bfc1aaaaf295156a92d49c366",
+      "offer_types": [
+        {
+          "offer_type_id": 110,
+          "readable": "Surveys"
+        },
+        {
+          "offer_type_id": 112,
+          "readable": "Free"
+        }
+      ],
+      "payout": 225,
+      "time_to_payout": {
+        "amount": 26400,
+        "readable": "7 hours"
+      },
+      "thumbnail": {
+        "lowres": "http://icons.fyber-static.com/app_icons/9800/small_mobile_icon.png",
+        "hires": "http://icons.fyber-static.com/app_icons/9800/big_mobile_icon.png"
+      },
+      "store_id": "com.surveysampling.mobile.quickthoughts",
+      "mobile_app_primary_category": "Lifestyle"
+    },
+    {
+      "title": "Ihr LEGO Harry Potter Schloss",
+      "comment": null,
+      "offer_id": 1410897,
+      "dynamic_payout_enabled": false,
+      "teaser": "Registrieren Sie sich, um ein LEGO Harry Potter Schloss zu gewinnen",
+      "required_actions": "Registrieren Sie sich, um ein LEGO Harry Potter Schloss zu gewinnen",
+      "detailed_actions_text": "Registrieren Sie sich mit einer gültigen E-Mail\r\n\r\n1) Registrieren Sie sich mit einer gültigen E-Mail-Adresse\r\n\r\nBitte beachten Sie: Ungültige / gefälschte E-Mails werden nicht belohnt.\r\n\r\nDieses Angebot gilt nur für neue Benutzer",
+      "link": "http://offer.fyber.com/mobile?impression=true&appid=2070&uid=superman&client=api&device_model=&platform=android&appname=VC+Backend+Test&traffic_source=offer_api&country_code=DE&pubid=249&ip=109.235.143.0&request_timestamp=1608238677257&request_id=6b56f823-54e3-494f-a68f-78a365c59a71&timestamp=1608238675&ad_id=1410897&ad_format=offer&group=Fyber&gdpr_privacy_consent=0&sig=6064126ea8f640db10e59723a3af992961d83942",
+      "offer_types": [
+        {
+          "offer_type_id": 104,
+          "readable": "Registration"
+        },
+        {
+          "offer_type_id": 108,
+          "readable": "Registration"
+        },
+        {
+          "offer_type_id": 112,
+          "readable": "Free"
+        }
+      ],
+      "payout": 215,
+      "time_to_payout": {
+        "amount": 600,
+        "readable": "10 minutes"
+      },
+      "thumbnail": {
+        "lowres": "http://icons.fyber-static.com/offer_icons/53659/icon.png",
+        "hires": "http://icons.fyber-static.com/offer_icons/53659/icon.png"
+      },
+      "store_id": "",
+      "mobile_app_primary_category": null
+    },
+    {
+      "title": "Ihre 500 € für Ihr PayPal-Konto",
+      "comment": null,
+      "offer_id": 1410454,
+      "dynamic_payout_enabled": false,
+      "teaser": "Registrieren Sie sich, um eine 500 € PayPal-Karte zu gewinnen",
+      "required_actions": "Registrieren Sie sich, um eine 500 € PayPal-Karte zu gewinnen",
+      "detailed_actions_text": "Registrieren Sie sich mit einer gültigen E-Mail\r\n\r\nBitte beachten Sie: Ungültige / gefälschte E-Mails werden nicht belohnt.\r\n\r\nDieses Angebot gilt nur für neue Benutzer",
+      "link": "http://offer.fyber.com/mobile?impression=true&appid=2070&uid=superman&client=api&device_model=&platform=android&appname=VC+Backend+Test&traffic_source=offer_api&country_code=DE&pubid=249&ip=109.235.143.0&request_timestamp=1608238677257&request_id=6b56f823-54e3-494f-a68f-78a365c59a71&timestamp=1608238675&ad_id=1410454&ad_format=offer&group=Fyber&gdpr_privacy_consent=0&sig=0b06fa2121f8db42a3c6dceda020588d105a7912",
+      "offer_types": [
+        {
+          "offer_type_id": 104,
+          "readable": "Registration"
+        },
+        {
+          "offer_type_id": 108,
+          "readable": "Registration"
+        },
+        {
+          "offer_type_id": 112,
+          "readable": "Free"
+        }
+      ],
+      "payout": 215,
+      "time_to_payout": {
+        "amount": 900,
+        "readable": "15 minutes"
+      },
+      "thumbnail": {
+        "lowres": "http://icons.fyber-static.com/offer_icons/53525/icon.png",
+        "hires": "http://icons.fyber-static.com/offer_icons/53525/icon.png"
+      },
+      "store_id": "",
+      "mobile_app_primary_category": null
+    },
+    {
+      "title": "Cash App $500 Winter Theme",
+      "comment": null,
+      "offer_id": 1419358,
+      "dynamic_payout_enabled": false,
+      "teaser": "Cash App $500 Winter Theme",
+      "required_actions": "Cash App $500 Winter Theme",
+      "detailed_actions_text": "Register with your real info get reward and compete to win Cash App $500 ",
+      "link": "http://offer.fyber.com/mobile?impression=true&appid=2070&uid=superman&client=api&device_model=&platform=android&appname=VC+Backend+Test&traffic_source=offer_api&country_code=DE&pubid=249&ip=109.235.143.0&request_timestamp=1608238677257&request_id=6b56f823-54e3-494f-a68f-78a365c59a71&timestamp=1608238675&ad_id=1419358&ad_format=offer&group=Fyber&gdpr_privacy_consent=0&sig=1aca902c2e67106fcb7f2a39a9729236c56c6d15",
+      "offer_types": [
+        {
+          "offer_type_id": 105,
+          "readable": "Registration"
+        },
+        {
+          "offer_type_id": 112,
+          "readable": "Free"
+        }
+      ],
+      "payout": 145,
+      "time_to_payout": {
+        "amount": 1800,
+        "readable": "30 minutes"
+      },
+      "thumbnail": {
+        "lowres": "http://icons.fyber-static.com/offer_icons/57249/icon.png",
+        "hires": "http://icons.fyber-static.com/offer_icons/57249/icon.png"
+      },
+      "store_id": "",
+      "mobile_app_primary_category": null
+    },
+    {
+      "title": "Ihre Red Bull Starter-Paket GRATIS",
+      "comment": null,
+      "offer_id": 1410921,
+      "dynamic_payout_enabled": false,
+      "teaser": "Registrieren Sie sich, um ein Red Bull Starter-Paket zu gewinnen",
+      "required_actions": "Registrieren Sie sich, um ein Red Bull Starter-Paket zu gewinnen",
+      "detailed_actions_text": "Registrieren Sie sich mit einer gültigen E-Mail\r\n\r\n1) Registrieren Sie sich mit einer gültigen E-Mail-Adresse\r\n\r\nBitte beachten Sie: Ungültige / gefälschte E-Mails werden nicht belohnt.\r\n\r\nDieses Angebot gilt nur für neue Benutzer",
+      "link": "http://offer.fyber.com/mobile?impression=true&appid=2070&uid=superman&client=api&device_model=&platform=android&appname=VC+Backend+Test&traffic_source=offer_api&country_code=DE&pubid=249&ip=109.235.143.0&request_timestamp=1608238677257&request_id=6b56f823-54e3-494f-a68f-78a365c59a71&timestamp=1608238675&ad_id=1410921&ad_format=offer&group=Fyber&gdpr_privacy_consent=0&sig=0cc1dd6780addaa8928293def661b8b739545b85",
+      "offer_types": [
+        {
+          "offer_type_id": 104,
+          "readable": "Registration"
+        },
+        {
+          "offer_type_id": 108,
+          "readable": "Registration"
+        },
+        {
+          "offer_type_id": 112,
+          "readable": "Free"
+        }
+      ],
+      "payout": 215,
+      "time_to_payout": {
+        "amount": 600,
+        "readable": "10 minutes"
+      },
+      "thumbnail": {
+        "lowres": "http://icons.fyber-static.com/offer_icons/53674/icon.png",
+        "hires": "http://icons.fyber-static.com/offer_icons/53674/icon.png"
+      },
+      "store_id": "",
+      "mobile_app_primary_category": null
+    },
+    {
+      "title": "Sieg für Samsung S20",
+      "comment": null,
+      "offer_id": 1413161,
+      "dynamic_payout_enabled": false,
+      "teaser": "Registrieren Sie sich mit einer gültigen E-Mail-Adresse",
+      "required_actions": "Registrieren Sie sich mit einer gültigen E-Mail-Adresse",
+      "detailed_actions_text": "1) Registrieren Sie sich mit einer gültigen E-Mail-Adresse & bestätigen Sie die in Ihrem Posteingang erhaltene E-Mail\r\nBitte beachten Sie: Ungültige/gefälschte E-Mails werden nicht belohnt",
+      "link": "http://offer.fyber.com/mobile?impression=true&appid=2070&uid=superman&client=api&device_model=&platform=android&appname=VC+Backend+Test&traffic_source=offer_api&country_code=DE&pubid=249&ip=109.235.143.0&request_timestamp=1608238677257&request_id=6b56f823-54e3-494f-a68f-78a365c59a71&timestamp=1608238675&ad_id=1413161&ad_format=offer&group=Fyber&gdpr_privacy_consent=0&sig=9464d667be56ef595614d39374caac4f4a43d455",
+      "offer_types": [
+        {
+          "offer_type_id": 104,
+          "readable": "Registration"
+        },
+        {
+          "offer_type_id": 108,
+          "readable": "Registration"
+        },
+        {
+          "offer_type_id": 112,
+          "readable": "Free"
+        }
+      ],
+      "payout": 210,
+      "time_to_payout": {
+        "amount": 1800,
+        "readable": "30 minutes"
+      },
+      "thumbnail": {
+        "lowres": "http://icons.fyber-static.com/offer_icons/54551/icon.png",
+        "hires": "http://icons.fyber-static.com/offer_icons/54551/icon.png"
+      },
+      "store_id": "",
+      "mobile_app_primary_category": null
+    },
+    {
+      "title": "Halloween-Werbung: iPhone12",
+      "comment": null,
+      "offer_id": 1413163,
+      "dynamic_payout_enabled": false,
+      "teaser": "Registrieren Sie sich mit einer gültigen E-Mail-Adresse",
+      "required_actions": "Registrieren Sie sich mit einer gültigen E-Mail-Adresse",
+      "detailed_actions_text": "1) Registrieren Sie sich mit einer gültigen E-Mail-Adresse & bestätigen Sie die in Ihrem Posteingang erhaltene E-Mail\r\nBitte beachten Sie: Ungültige/gefälschte E-Mails werden nicht belohnt",
+      "link": "http://offer.fyber.com/mobile?impression=true&appid=2070&uid=superman&client=api&device_model=&platform=android&appname=VC+Backend+Test&traffic_source=offer_api&country_code=DE&pubid=249&ip=109.235.143.0&request_timestamp=1608238677257&request_id=6b56f823-54e3-494f-a68f-78a365c59a71&timestamp=1608238675&ad_id=1413163&ad_format=offer&group=Fyber&gdpr_privacy_consent=0&sig=918fe695d281c50b8167580efcbe209e9d852e7f",
+      "offer_types": [
+        {
+          "offer_type_id": 104,
+          "readable": "Registration"
+        },
+        {
+          "offer_type_id": 108,
+          "readable": "Registration"
+        },
+        {
+          "offer_type_id": 112,
+          "readable": "Free"
+        }
+      ],
+      "payout": 210,
+      "time_to_payout": {
+        "amount": 1800,
+        "readable": "30 minutes"
+      },
+      "thumbnail": {
+        "lowres": "http://icons.fyber-static.com/offer_icons/54553/icon.png",
+        "hires": "http://icons.fyber-static.com/offer_icons/54553/icon.png"
+      },
+      "store_id": "",
+      "mobile_app_primary_category": null
+    },
+    {
+      "title": "Ihr 750 € MediaMarkt Gutschein",
+      "comment": null,
+      "offer_id": 1395477,
+      "dynamic_payout_enabled": false,
+      "teaser": "Registrieren Sie sich, um einen 750 € MediaMarkt-Gutschein zu gewinnen",
+      "required_actions": "Registrieren Sie sich, um einen 750 € MediaMarkt-Gutschein zu gewinnen",
+      "detailed_actions_text": "Registrieren Sie sich mit einer gültigen E-Mail\r\n\r\n1) Registrieren Sie sich mit einer gültigen E-Mail-Adresse\r\n\r\nBitte beachten Sie: Ungültige / gefälschte E-Mails werden nicht belohnt.\r\n\r\nDieses Angebot gilt nur für neue Benutzer",
+      "link": "http://offer.fyber.com/mobile?impression=true&appid=2070&uid=superman&client=api&device_model=&platform=android&appname=VC+Backend+Test&traffic_source=offer_api&country_code=DE&pubid=249&ip=109.235.143.0&request_timestamp=1608238677257&request_id=6b56f823-54e3-494f-a68f-78a365c59a71&timestamp=1608238675&ad_id=1395477&ad_format=offer&group=Fyber&gdpr_privacy_consent=0&sig=41925db1a2c375830f5f52ac4b16ba2babf4bb01",
+      "offer_types": [
+        {
+          "offer_type_id": 104,
+          "readable": "Registration"
+        },
+        {
+          "offer_type_id": 108,
+          "readable": "Registration"
+        },
+        {
+          "offer_type_id": 112,
+          "readable": "Free"
+        }
+      ],
+      "payout": 208,
+      "time_to_payout": {
+        "amount": 1800,
+        "readable": "30 minutes"
+      },
+      "thumbnail": {
+        "lowres": "http://icons.fyber-static.com/offer_icons/46807/icon.png",
+        "hires": "http://icons.fyber-static.com/offer_icons/46807/icon.png"
+      },
+      "store_id": "",
+      "mobile_app_primary_category": null
+    },
+    {
+      "title": "Gewinne die neue Sony PlayStation 5",
+      "comment": null,
+      "offer_id": 1392193,
+      "dynamic_payout_enabled": false,
+      "teaser": "Registrieren Sie sich bei haben Sie die Chance, die neue Sony Playstation 5",
+      "required_actions": "Registrieren Sie sich bei haben Sie die Chance, die neue Sony Playstation 5",
+      "detailed_actions_text": "Registrieren Sie sich mit einer gültigen E-Mail\r\n\r\n1) Registrieren Sie sich mit einer gültigen E-Mail-Adresse\r\n\r\nBitte beachten Sie: Ungültige / gefälschte E-Mails werden nicht belohnt.\r\n\r\nDieses Angebot gilt nur für neue Benutzer",
+      "link": "http://offer.fyber.com/mobile?impression=true&appid=2070&uid=superman&client=api&device_model=&platform=android&appname=VC+Backend+Test&traffic_source=offer_api&country_code=DE&pubid=249&ip=109.235.143.0&request_timestamp=1608238677257&request_id=6b56f823-54e3-494f-a68f-78a365c59a71&timestamp=1608238675&ad_id=1392193&ad_format=offer&group=Fyber&gdpr_privacy_consent=0&sig=1eaaf704c4b9080598c67982588c601f331d0d4b",
+      "offer_types": [
+        {
+          "offer_type_id": 104,
+          "readable": "Registration"
+        },
+        {
+          "offer_type_id": 108,
+          "readable": "Registration"
+        },
+        {
+          "offer_type_id": 112,
+          "readable": "Free"
+        }
+      ],
+      "payout": 208,
+      "time_to_payout": {
+        "amount": 1500,
+        "readable": "25 minutes"
+      },
+      "thumbnail": {
+        "lowres": "http://icons.fyber-static.com/offer_icons/45485/icon.png",
+        "hires": "http://icons.fyber-static.com/offer_icons/45485/icon.png"
+      },
+      "store_id": "",
+      "mobile_app_primary_category": null
+    },
+    {
+      "title": "Gewinnen Sie eine Lieferando-Karte",
+      "comment": null,
+      "offer_id": 1370623,
+      "dynamic_payout_enabled": false,
+      "teaser": "Registrieren Sie sich, um eine Lieferando-Geschenkkarte zu gewinnen",
+      "required_actions": "Registrieren Sie sich, um eine Lieferando-Geschenkkarte zu gewinnen",
+      "detailed_actions_text": "Registrieren Sie sich mit einer gültigen E-Mail\r\n\r\n1) Registrieren Sie sich mit einer gültigen E-Mail-Adresse\r\n\r\nBitte beachten Sie: Ungültige / gefälschte E-Mails werden nicht belohnt.\r\n\r\nDieses Angebot gilt nur für neue Benutzer",
+      "link": "http://offer.fyber.com/mobile?impression=true&appid=2070&uid=superman&client=api&device_model=&platform=android&appname=VC+Backend+Test&traffic_source=offer_api&country_code=DE&pubid=249&ip=109.235.143.0&request_timestamp=1608238677257&request_id=6b56f823-54e3-494f-a68f-78a365c59a71&timestamp=1608238675&ad_id=1370623&ad_format=offer&group=Fyber&gdpr_privacy_consent=0&sig=8ad1eaaa2ea2d0f69dac3e7935c7cadc14b877e7",
+      "offer_types": [
+        {
+          "offer_type_id": 104,
+          "readable": "Registration"
+        },
+        {
+          "offer_type_id": 108,
+          "readable": "Registration"
+        },
+        {
+          "offer_type_id": 112,
+          "readable": "Free"
+        }
+      ],
+      "payout": 208,
+      "time_to_payout": {
+        "amount": 1800,
+        "readable": "30 minutes"
+      },
+      "thumbnail": {
+        "lowres": "http://icons.fyber-static.com/offer_icons/36067/icon.png",
+        "hires": "http://icons.fyber-static.com/offer_icons/36067/icon.png"
+      },
+      "store_id": "",
+      "mobile_app_primary_category": null
+    },
+    {
+      "title": "Ihr gratis 25€ Burger King paket",
+      "comment": null,
+      "offer_id": 1393303,
+      "dynamic_payout_enabled": false,
+      "teaser": "Registrieren Sie sich, um ein 25 € Burger King-Paket zu gewinnen",
+      "required_actions": "Registrieren Sie sich, um ein 25 € Burger King-Paket zu gewinnen",
+      "detailed_actions_text": "Registrieren Sie sich mit einer gültigen E-Mail\r\n\r\n1) Registrieren Sie sich mit einer gültigen E-Mail-Adresse\r\n\r\nBitte beachten Sie: Ungültige / gefälschte E-Mails werden nicht belohnt.\r\n\r\nDieses Angebot gilt nur für neue Benutzer",
+      "link": "http://offer.fyber.com/mobile?impression=true&appid=2070&uid=superman&client=api&device_model=&platform=android&appname=VC+Backend+Test&traffic_source=offer_api&country_code=DE&pubid=249&ip=109.235.143.0&request_timestamp=1608238677257&request_id=6b56f823-54e3-494f-a68f-78a365c59a71&timestamp=1608238675&ad_id=1393303&ad_format=offer&group=Fyber&gdpr_privacy_consent=0&sig=e1fe0f40dcbdb1e671e0b6d3351d83699adb6082",
+      "offer_types": [
+        {
+          "offer_type_id": 104,
+          "readable": "Registration"
+        },
+        {
+          "offer_type_id": 108,
+          "readable": "Registration"
+        },
+        {
+          "offer_type_id": 112,
+          "readable": "Free"
+        }
+      ],
+      "payout": 208,
+      "time_to_payout": {
+        "amount": 1500,
+        "readable": "25 minutes"
+      },
+      "thumbnail": {
+        "lowres": "http://icons.fyber-static.com/offer_icons/45875/icon.png",
+        "hires": "http://icons.fyber-static.com/offer_icons/45875/icon.png"
+      },
+      "store_id": "",
+      "mobile_app_primary_category": null
+    },
+    {
+      "title": "Gewinnen Sie einen 100€ Lidl Karte",
+      "comment": null,
+      "offer_id": 1391667,
+      "dynamic_payout_enabled": false,
+      "teaser": "Registrieren Sie sich bei Gewinnen Sie einen 100 € Lidl Gutschein",
+      "required_actions": "Registrieren Sie sich bei Gewinnen Sie einen 100 € Lidl Gutschein",
+      "detailed_actions_text": "Registrieren Sie sich mit einer gültigen E-Mail\r\n\r\n1) Registrieren Sie sich mit einer gültigen E-Mail-Adresse\r\n\r\nBitte beachten Sie: Ungültige / gefälschte E-Mails werden nicht belohnt.\r\n\r\nDieses Angebot gilt nur für neue Benutzer",
+      "link": "http://offer.fyber.com/mobile?impression=true&appid=2070&uid=superman&client=api&device_model=&platform=android&appname=VC+Backend+Test&traffic_source=offer_api&country_code=DE&pubid=249&ip=109.235.143.0&request_timestamp=1608238677257&request_id=6b56f823-54e3-494f-a68f-78a365c59a71&timestamp=1608238675&ad_id=1391667&ad_format=offer&group=Fyber&gdpr_privacy_consent=0&sig=aabd337690010d5e42d0183d4132993560618f4e",
+      "offer_types": [
+        {
+          "offer_type_id": 104,
+          "readable": "Registration"
+        },
+        {
+          "offer_type_id": 108,
+          "readable": "Registration"
+        },
+        {
+          "offer_type_id": 112,
+          "readable": "Free"
+        }
+      ],
+      "payout": 208,
+      "time_to_payout": {
+        "amount": 1800,
+        "readable": "30 minutes"
+      },
+      "thumbnail": {
+        "lowres": "http://icons.fyber-static.com/offer_icons/45221/icon.png",
+        "hires": "http://icons.fyber-static.com/offer_icons/45221/icon.png"
+      },
+      "store_id": "",
+      "mobile_app_primary_category": null
+    },
+    {
+      "title": "Gewinne Monster-Energiepakete",
+      "comment": null,
+      "offer_id": 1363367,
+      "dynamic_payout_enabled": false,
+      "teaser": "Registrieren Sie sich, um einen Monster Energy Kühlschrank zu gewinnen",
+      "required_actions": "Registrieren Sie sich, um einen Monster Energy Kühlschrank zu gewinnen",
+      "detailed_actions_text": "* Nur für neue Benutzer *\r\n1) Registrieren Sie sich mit Ihrer vollständigen Adresse und einer gültigen E-Mail\r\nBitte beachten Sie: Ungültige oder wiederholte E-Mails werden nicht belohnt",
+      "link": "http://offer.fyber.com/mobile?impression=true&appid=2070&uid=superman&client=api&device_model=&platform=android&appname=VC+Backend+Test&traffic_source=offer_api&country_code=DE&pubid=249&ip=109.235.143.0&request_timestamp=1608238677257&request_id=6b56f823-54e3-494f-a68f-78a365c59a71&timestamp=1608238675&ad_id=1363367&ad_format=offer&group=Fyber&gdpr_privacy_consent=0&sig=0df128b8a52834df30b3f24f1195aa9e6095c5ef",
+      "offer_types": [
+        {
+          "offer_type_id": 104,
+          "readable": "Registration"
+        },
+        {
+          "offer_type_id": 108,
+          "readable": "Registration"
+        },
+        {
+          "offer_type_id": 112,
+          "readable": "Free"
+        }
+      ],
+      "payout": 208,
+      "time_to_payout": {
+        "amount": 1800,
+        "readable": "30 minutes"
+      },
+      "thumbnail": {
+        "lowres": "http://icons.fyber-static.com/offer_icons/32853/icon.png",
+        "hires": "http://icons.fyber-static.com/offer_icons/32853/icon.png"
+      },
+      "store_id": "",
+      "mobile_app_primary_category": null
+    },
+    {
+      "title": "Ihr gratis 250 € Müller Gutschein",
+      "comment": null,
+      "offer_id": 1404001,
+      "dynamic_payout_enabled": false,
+      "teaser": "Registrieren Sie sich, um einen 250-Euro-Müller-Gutschein zu gewinnen",
+      "required_actions": "Registrieren Sie sich, um einen 250-Euro-Müller-Gutschein zu gewinnen",
+      "detailed_actions_text": "Registrieren Sie sich mit einer gültigen E-Mail\r\n\r\n1) Registrieren Sie sich mit einer gültigen E-Mail-Adresse\r\n\r\nBitte beachten Sie: Ungültige / gefälschte E-Mails werden nicht belohnt.\r\n\r\nDieses Angebot gilt nur für neue Benutzer",
+      "link": "http://offer.fyber.com/mobile?impression=true&appid=2070&uid=superman&client=api&device_model=&platform=android&appname=VC+Backend+Test&traffic_source=offer_api&country_code=DE&pubid=249&ip=109.235.143.0&request_timestamp=1608238677257&request_id=6b56f823-54e3-494f-a68f-78a365c59a71&timestamp=1608238675&ad_id=1404001&ad_format=offer&group=Fyber&gdpr_privacy_consent=0&sig=fe6014a535159e40e103d2340ae98cff4a89fb2c",
+      "offer_types": [
+        {
+          "offer_type_id": 104,
+          "readable": "Registration"
+        },
+        {
+          "offer_type_id": 108,
+          "readable": "Registration"
+        },
+        {
+          "offer_type_id": 112,
+          "readable": "Free"
+        }
+      ],
+      "payout": 208,
+      "time_to_payout": {
+        "amount": 6300,
+        "readable": "2 hours"
+      },
+      "thumbnail": {
+        "lowres": "http://icons.fyber-static.com/offer_icons/50404/icon.png",
+        "hires": "http://icons.fyber-static.com/offer_icons/50404/icon.png"
+      },
+      "store_id": "",
+      "mobile_app_primary_category": null
+    },
+    {
+      "title": "Gewinne das neue Spiel FIFA 21!",
+      "comment": null,
+      "offer_id": 1405994,
+      "dynamic_payout_enabled": false,
+      "teaser": "Klicken Sie hier, um das neue Fußballspiel FIFA 21 jetzt zu gewinnen!",
+      "required_actions": "Klicken Sie hier, um das neue Fußballspiel FIFA 21 jetzt zu gewinnen!",
+      "detailed_actions_text": "Geben Sie ihre Details ein\r\nBestätigen\r\nErhalte die Belohnung\r\nEine Teilnahme ist nur mit gültigen und korrekten Daten möglich\r\nWerde belohnt!\r\nDieses Angebot gilt nur für neue Benutzer\r\nDas Angebot ist kostenlos\r\nSie treten für eine GELEGENHEIT ein, um das Spiel zu gewinnen\r\nGefälschte Details werden Sie NICHT belohnt.\r\n",
+      "link": "http://offer.fyber.com/mobile?impression=true&appid=2070&uid=superman&client=api&device_model=&platform=android&appname=VC+Backend+Test&traffic_source=offer_api&country_code=DE&pubid=249&ip=109.235.143.0&request_timestamp=1608238677257&request_id=6b56f823-54e3-494f-a68f-78a365c59a71&timestamp=1608238675&ad_id=1405994&ad_format=offer&group=Fyber&gdpr_privacy_consent=0&sig=abd18be2dc6657b942486b4df1700f1d8510f47c",
+      "offer_types": [
+        {
+          "offer_type_id": 104,
+          "readable": "Registration"
+        },
+        {
+          "offer_type_id": 108,
+          "readable": "Registration"
+        },
+        {
+          "offer_type_id": 112,
+          "readable": "Free"
+        }
+      ],
+      "payout": 195,
+      "time_to_payout": {
+        "amount": 0,
+        "readable": "1 minute"
+      },
+      "thumbnail": {
+        "lowres": "http://icons.fyber-static.com/offer_icons/51370/icon.png",
+        "hires": "http://icons.fyber-static.com/offer_icons/51370/icon.png"
+      },
+      "store_id": "",
+      "mobile_app_primary_category": null
+    },
+    {
+      "title": "Nehmen Sie Umfragen für schnelle Be",
+      "comment": null,
+      "offer_id": 1199041,
+      "dynamic_payout_enabled": true,
+      "teaser": "Nehmen Sie Umfragen für schnelle Belohnungen!",
+      "required_actions": "Nehmen Sie Umfragen für schnelle Belohnungen!",
+      "detailed_actions_text": "Verdienen Sie Belohnungen für Ihre Meinungen!\r\nAntwort 15 leichte Fragen über sich selbst, dann wählen Sie aus Hunderten von Umfragen.\r\nVerdienen Sie schnelle Belohnungen mit kurzen Umfragen oder nehmen Sie eine längere für die größte Belohnung.\r\nNeue Umfragen jeden Tag!",
+      "link": "http://offer.fyber.com/mobile?impression=true&appid=2070&uid=superman&client=api&device_model=&platform=android&appname=VC+Backend+Test&traffic_source=offer_api&country_code=DE&pubid=249&ip=109.235.143.0&request_timestamp=1608238677257&request_id=6b56f823-54e3-494f-a68f-78a365c59a71&timestamp=1608238675&ad_id=1199041&ad_format=offer&group=Fyber&gdpr_privacy_consent=0&sig=c424c8aef7d9c92a91b4126d5f91ba24368253cd",
+      "offer_types": [
+        {
+          "offer_type_id": 110,
+          "readable": "Surveys"
+        },
+        {
+          "offer_type_id": 112,
+          "readable": "Free"
+        }
+      ],
+      "payout": 173,
+      "time_to_payout": {
+        "amount": 0,
+        "readable": "1 minute"
+      },
+      "thumbnail": {
+        "lowres": "http://icons.fyber-static.com/assets/66821/tap-250-blue_square_60.png",
+        "hires": "http://icons.fyber-static.com/assets/66821/tap-250-blue_square_175.png"
+      },
+      "store_id": "",
+      "mobile_app_primary_category": null
+    },
+    {
+      "title": "Erhalten Sie KOSTENLOS Lidl €500",
+      "comment": null,
+      "offer_id": 1396723,
+      "dynamic_payout_enabled": false,
+      "teaser": "Senden Sie Ihre E-Mail, um eine Belohnung zu erhalten",
+      "required_actions": "Senden Sie Ihre E-Mail, um eine Belohnung zu erhalten",
+      "detailed_actions_text": "Beantworten Sie Fragen und senden Sie Ihre gültige E-Mail.\r\nGeben Sie Ihre grundlegenden Informationen ein.\r\nHolen Sie sich Ihre Fyber-Belohnung!\r\n* Jeder Benutzer kann es nur einmal tun!",
+      "link": "http://offer.fyber.com/mobile?impression=true&appid=2070&uid=superman&client=api&device_model=&platform=android&appname=VC+Backend+Test&traffic_source=offer_api&country_code=DE&pubid=249&ip=109.235.143.0&request_timestamp=1608238677257&request_id=6b56f823-54e3-494f-a68f-78a365c59a71&timestamp=1608238675&ad_id=1396723&ad_format=offer&group=Fyber&gdpr_privacy_consent=0&sig=ff5030726d6570ece9e2fb81ade8a1b9d95a20c4",
+      "offer_types": [
+        {
+          "offer_type_id": 104,
+          "readable": "Registration"
+        },
+        {
+          "offer_type_id": 108,
+          "readable": "Registration"
+        },
+        {
+          "offer_type_id": 112,
+          "readable": "Free"
+        }
+      ],
+      "payout": 187,
+      "time_to_payout": {
+        "amount": 0,
+        "readable": "1 minute"
+      },
+      "thumbnail": {
+        "lowres": "http://icons.fyber-static.com/offer_icons/47239/icon.png",
+        "hires": "http://icons.fyber-static.com/offer_icons/47239/icon.png"
+      },
+      "store_id": "",
+      "mobile_app_primary_category": null
+    },
+    {
+      "title": "Ihre 1000 € PayPal Geschenkkarte",
+      "comment": null,
+      "offer_id": 1390789,
+      "dynamic_payout_enabled": false,
+      "teaser": "Registrieren Sie sich, um einen 1000€ PayPal-Gutschein zu gewinnen",
+      "required_actions": "Registrieren Sie sich, um einen 1000€ PayPal-Gutschein zu gewinnen",
+      "detailed_actions_text": "Registrieren Sie sich mit einer gültigen E-Mail\r\n\r\nBitte beachten Sie: Ungültige / gefälschte E-Mails werden nicht belohnt.\r\n\r\nDieses Angebot gilt nur für neue Benutzer",
+      "link": "http://offer.fyber.com/mobile?impression=true&appid=2070&uid=superman&client=api&device_model=&platform=android&appname=VC+Backend+Test&traffic_source=offer_api&country_code=DE&pubid=249&ip=109.235.143.0&request_timestamp=1608238677257&request_id=6b56f823-54e3-494f-a68f-78a365c59a71&timestamp=1608238675&ad_id=1390789&ad_format=offer&group=Fyber&gdpr_privacy_consent=0&sig=f687ccf0ac1389aa4d462fedffde808748d02893",
+      "offer_types": [
+        {
+          "offer_type_id": 104,
+          "readable": "Registration"
+        },
+        {
+          "offer_type_id": 108,
+          "readable": "Registration"
+        },
+        {
+          "offer_type_id": 112,
+          "readable": "Free"
+        }
+      ],
+      "payout": 187,
+      "time_to_payout": {
+        "amount": 2400,
+        "readable": "40 minutes"
+      },
+      "thumbnail": {
+        "lowres": "http://icons.fyber-static.com/offer_icons/44827/icon.png",
+        "hires": "http://icons.fyber-static.com/offer_icons/44827/icon.png"
+      },
+      "store_id": "",
+      "mobile_app_primary_category": null
+    },
+    {
+      "title": "Gewinne ein Aldi E-Bike",
+      "comment": null,
+      "offer_id": 1390617,
+      "dynamic_payout_enabled": false,
+      "teaser": "Registrieren Sie sich, um ein Aldi E-Bike zu gewinnen",
+      "required_actions": "Registrieren Sie sich, um ein Aldi E-Bike zu gewinnen",
+      "detailed_actions_text": "Registrieren Sie sich mit einer gültigen E-Mail\r\n\r\n1) Registrieren Sie sich mit einer gültigen E-Mail-Adresse\r\n\r\nBitte beachten Sie: Ungültige / gefälschte E-Mails werden nicht belohnt.\r\n\r\nDieses Angebot gilt nur für neue Benutzer",
+      "link": "http://offer.fyber.com/mobile?impression=true&appid=2070&uid=superman&client=api&device_model=&platform=android&appname=VC+Backend+Test&traffic_source=offer_api&country_code=DE&pubid=249&ip=109.235.143.0&request_timestamp=1608238677257&request_id=6b56f823-54e3-494f-a68f-78a365c59a71&timestamp=1608238675&ad_id=1390617&ad_format=offer&group=Fyber&gdpr_privacy_consent=0&sig=ec45290cf570d434cea96c0f853f81c9b35da690",
+      "offer_types": [
+        {
+          "offer_type_id": 104,
+          "readable": "Registration"
+        },
+        {
+          "offer_type_id": 108,
+          "readable": "Registration"
+        },
+        {
+          "offer_type_id": 112,
+          "readable": "Free"
+        }
+      ],
+      "payout": 187,
+      "time_to_payout": {
+        "amount": 1200,
+        "readable": "20 minutes"
+      },
+      "thumbnail": {
+        "lowres": "http://icons.fyber-static.com/offer_icons/44707/icon.png",
+        "hires": "http://icons.fyber-static.com/offer_icons/44707/icon.png"
+      },
+      "store_id": "",
+      "mobile_app_primary_category": null
+    }
+  ]
+}

@@ -2,10 +2,15 @@
     <string name="app_name">Offer Wall</string>
     <string name="action_settings">Settings</string>
     <!-- Strings used for fragments for navigation -->
-    <string name="offer_wall_fragment_label">Offer Wall Fragment</string>
+    <string name="offer_wall_fragment_label">Offer Wall</string>
+    <string name="settings_fragment_label">Settings</string>
 
 
     <string name="app_id">Application ID</string>
     <string name="user_id">User ID</string>
     <string name="token">Token</string>
+
+    <string name="error_app_id">Enter the Application ID</string>
+    <string name="error_user_id">Enter the User ID</string>
+    <string name="error_token">Enter the Token</string>
 </resources>

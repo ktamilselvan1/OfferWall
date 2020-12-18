@@ -22,6 +22,6 @@
     <fragment
         android:id="@+id/settingsFragment"
         android:name="com.tamil.offer.ui.settings.SettingsFragment"
-        android:label="Settings Fragment"
+        android:label="@string/settings_fragment_label"
         tools:layout="@layout/fragment_settings" />
 </navigation>
